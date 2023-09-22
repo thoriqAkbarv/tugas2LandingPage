@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, rgb(25, 5, 102), rgb(0, 60, 255));
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgb(25, 5, 102), rgb(0, 60, 255));
+    height: 78px;
+}
+
+header .logo {
+    float: left;
+}
+
+header .navigation {
+    float: right;
+    margin-top: 17px;
+}
+
+header .navigation li {
+    float: right;
+    margin-left: 20px;
+    display: block;
+}
+
+header .navigation li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .navigation li a:hover {
+    color: #48dbfb;
+    text-decoration: underline;
+}
+
+
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 70px;
+    background: #0790f1;
+    border-radius: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background: #0790f1;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 48px;
+    padding-top: 96px;
+}
+
+.cimg {
+    border-radius: 100px;
+}
+
+footer {
+    background-color: #1F2937;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+.container-1 p {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+figcaption {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
